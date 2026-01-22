@@ -20,7 +20,7 @@ st.set_page_config(
 @st.cache_resource
 def load_resources():
     # A. Download NLTK data quietly
-    resources = ['punkt', 'stopwords', 'wordnet', 'averaged_perceptron_tagger', 'omw-1.4']
+    resources = ['punkt', 'punkt_tab', 'stopwords', 'wordnet', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger_eng', 'omw-1.4']
     for res in resources:
         try:
             nltk.data.find(f'tokenizers/{res}')
