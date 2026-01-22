@@ -17,7 +17,7 @@ It features a **Matrix style** interface, real-time confidence visualization, an
 
 * **Matrix-Style UI:** A futuristic, "hacker-style" interface built with Streamlit and custom CSS.
 * **Advanced Preprocessing:** Full NLP pipeline including HTML cleaning, POS-Tagging, and Lemmatization.
-* **High Accuracy Model:** Powered by **Linear SVC** (Support Vector Classifier) achieving **~89% accuracy** on the IMDB dataset.
+* **High Accuracy Model:** Powered by **Linear Regression** achieving **~88.61% accuracy**, also tried LinearSVM with **~88.21%** and Naive Bayes with **~84%**  on the IMDB dataset.
 * **Interactive Visualization:** Dynamic Plotly donut charts that change color (Green/Red) based on sentiment confidence.
 * **Real-time Analysis:** Instant classification of any text input.
 
