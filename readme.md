@@ -9,6 +9,8 @@ A high-performance **Natural Language Processing (NLP)** web application that an
 
 It features a **Matrix style** interface, real-time confidence visualization, and a robust machine learning backend trained on 50,000 IMDB reviews.
 
+### Streamlit live app : https://sentimentai123.streamlit.app/
+
 ---
 
 ## ⚡ Features
